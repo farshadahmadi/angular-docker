@@ -1,0 +1,4 @@
+.DS_Store
+
+# exclude the application code
+angular/application/*

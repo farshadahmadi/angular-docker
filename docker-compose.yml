@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  ng: 
+    build: angular/docker-folder
+    ports:
+    - 4200:4200
+    volumes:
+    - "$PWD/angular/application:/home/application/"
+    #entrypoint: tail -f /dev/null
